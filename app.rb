@@ -1,16 +1,15 @@
 require 'sinatra/base'
+require_relative 'lib/bookmarks'
 
 class BookMarker < Sinatra::Base
 
   enable :sessions
 
   get "/" do
-    "Testing"
+    @bookmarks = Bookmarks.all?
+    erb :bookmarks
   end
 
-  get "/bookmarks" do
-    erb :bookmark
-  end
 
   run! if app_file == $0
 end
