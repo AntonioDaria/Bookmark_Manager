@@ -6,7 +6,15 @@ require 'pry'
 require 'simplecov'
 require 'simplecov-console'
 
+ENV['ENVIRONMENT'] = 'test'
 ENV['RACK_ENV'] = 'test'
+require_relative 'setup_test_database'
+
+RSpec.configure do |config|
+  config.before(:each) do
+    setup_test_database
+  end
+end
 
 Capybara.app = BookMarker
 
