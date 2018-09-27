@@ -1,4 +1,5 @@
 require 'pg'
+require_relative 'bookmark'
 
 class Bookmarks
 
