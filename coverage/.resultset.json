@@ -1,7 +1,8 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/creating_bookmarks_spec.rb": [
+      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/features/creating_bookmarks_spec.rb": [
+        1,
         1,
         1,
         1,
@@ -11,6 +12,7 @@
         1,
         null,
         null,
+        1,
         1,
         1,
         1,
@@ -21,7 +23,7 @@
         null,
         null
       ],
-      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/index_spec.rb": [
+      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/features/index_spec.rb": [
         1,
         1,
         1,
@@ -29,7 +31,7 @@
         null,
         null
       ],
-      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -47,12 +49,12 @@
         1,
         null,
         1,
-        1,
-        1,
+        0,
+        0,
         null,
         null
       ],
-      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/unit/bookmarks_spec.rb": [
+      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/unit/bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -91,6 +93,6 @@
         null
       ]
     },
-    "timestamp": 1538056081
+    "timestamp": 1538059816
   }
 }

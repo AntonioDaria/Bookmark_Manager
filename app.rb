@@ -19,7 +19,7 @@ class BookMarker < Sinatra::Base
 
 
   post '/bookmarks' do
-    flash[:notice] = "You must submit a valid url" unless Bookmarks.create(url: params['url'])
+    flash[:notice] = "You must submit a valid url" unless Bookmarks.create(title: params['title'], url: params['url'])
     redirect '/'
   end
 
