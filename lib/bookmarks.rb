@@ -2,19 +2,19 @@ require 'pg'
 
 class Bookmarks
 
-
   def self.all
     if ENV['ENVIRONMENT'] == 'test'
-      connection = PG.connect( dbname: 'test_bookmark_manager')
+      connection = PG.connect(dbname: 'test_bookmark_manager')
     else
-      connection = PG.connect( dbname: 'bookmark_manager')
+      connection = PG.connect(dbname: 'bookmark_manager')
     end
-    result = connection.exec( "SELECT * FROM bookmarks" )
-    result.map { |bookmark| bookmark['url'] }
+    result = connection.exec("SELECT * FROM bookmarks")
+    result.map { |bookmark| Bookmark.new(bookmark['id'], bookmark['title'], bookmark['url']) }
   end
 
   def self.create(title:, url:)
     return false unless is_url?(url)
+
     if ENV['ENVIRONMENT'] == 'test'
       connection = PG.connect(dbname: 'test_bookmark_manager')
     else
@@ -25,9 +25,8 @@ class Bookmarks
 
   private
 
-    def self.is_url?(url)
-       url =~ /\A#{URI::regexp(['http', 'https'])}\z/
-    end
-
+  def self.is_url?(url)
+    url =~ /\A#{URI::regexp(['http', 'https'])}\z/
+  end
 
 end

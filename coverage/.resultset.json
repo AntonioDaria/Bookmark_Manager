@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/features/creating_bookmarks_spec.rb": [
+      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/creating_bookmarks_spec.rb": [
         1,
         1,
         1,
@@ -23,7 +23,7 @@
         null,
         null
       ],
-      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/features/index_spec.rb": [
+      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/index_spec.rb": [
         1,
         1,
         1,
@@ -31,7 +31,7 @@
         null,
         null
       ],
-      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/features/viewing_bookmarks_spec.rb": [
+      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/viewing_bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -49,12 +49,45 @@
         1,
         null,
         1,
-        0,
-        0,
+        1,
+        1,
         null,
         null
       ],
-      "/Users/jon/Projects/makers/week-4/bookmark-manager-antonio-day-4/spec/unit/bookmarks_spec.rb": [
+      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/unit/bookmark_spec.rb": [
+        1,
+        null,
+        1,
+        4,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/lib/bookmark.rb": [
+        1,
+        1,
+        null,
+        1,
+        11,
+        11,
+        11,
+        null,
+        null,
+        null
+      ],
+      "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/unit/bookmarks_spec.rb": [
         1,
         null,
         1,
@@ -70,19 +103,26 @@
         1,
         null,
         1,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
         null,
         1,
         1,
         1,
         null,
-        null,
-        null,
-        null,
+        1,
         1,
         1,
         1,
         null,
-        1,
         null,
         null,
         1,
@@ -93,6 +133,6 @@
         null
       ]
     },
-    "timestamp": 1538059816
+    "timestamp": 1538063866
   }
 }
