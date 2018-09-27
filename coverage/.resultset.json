@@ -10,6 +10,15 @@
         null,
         1,
         null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/antoniodaria/projects/pairing_challenges/Bookmark_Manager/spec/features/index_spec.rb": [
@@ -74,9 +83,14 @@
         1,
         null,
         null,
+        1,
+        1,
+        1,
+        null,
+        null,
         null
       ]
     },
-    "timestamp": 1537982520
+    "timestamp": 1538056081
   }
 }
